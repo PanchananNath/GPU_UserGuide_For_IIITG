@@ -268,14 +268,3 @@ nvidia-smi
 
 ---
 
-# Summary
-
-Using this guide, you can:
-
-- Access IIITG GPU servers
-- Create personal environments
-- Install GPU-enabled PyTorch
-- Run programs on specific GPUs
-- Execute long jobs in the background
-
----
