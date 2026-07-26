@@ -148,30 +148,38 @@ Where:
   ```bash
   Visible CUDA devices: 7
 
+```bash
 Logical cuda:0
   Name      : NVIDIA A100-PCIE-40GB
   PCI Bus ID: Not available in this PyTorch version
+```
 
+```bash
 Logical cuda:1
   Name      : NVIDIA A100-PCIE-40GB
   PCI Bus ID: Not available in this PyTorch version
-
+```
+```bash
 Logical cuda:2
   Name      : NVIDIA A100-PCIE-40GB
   PCI Bus ID: Not available in this PyTorch version
-
+```
+```bash
 Logical cuda:3
   Name      : NVIDIA A100-PCIE-40GB
   PCI Bus ID: Not available in this PyTorch version
-
+```
+```bash
 Logical cuda:4
   Name      : Tesla V100-PCIE-32GB
   PCI Bus ID: Not available in this PyTorch version
-
+```
+```bash
 Logical cuda:5
   Name      : Tesla V100-PCIE-32GB
   PCI Bus ID: Not available in this PyTorch version
-
+```
+```bash
 Logical cuda:6
   Name      : Tesla V100-PCIE-32GB
   PCI Bus ID: Not available in this PyTorch version
