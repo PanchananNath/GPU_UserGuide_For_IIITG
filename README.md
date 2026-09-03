@@ -1,6 +1,6 @@
 # GPU Usage Guide – IIIT Guwahati
 
-A **step-by-step guide for accessing and using the GPU servers at IIIT Guwahati (IIITG)**. 
+A **step-by-step guide for accessing and using the GPU servers at IIIT Guwahati (IIITG)**
 
 ---
 
