@@ -8,7 +8,7 @@ A **step-by-step guide for accessing and using the GPU servers at IIIT Guwahati 
 
 # Account Acquisition
 
-Students / Scholars of **IIIT Guwahati** must obtain **GPU server credentials** from the **ICT Section**.
+Students / Scholars of **IIIT Guwahati** must obtain **GPU server credentials** from the **ICT**.
 
 ### Steps
 1. Contact the ICT support team.
