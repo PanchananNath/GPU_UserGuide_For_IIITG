@@ -240,11 +240,3 @@ cat nohup.out
 
 ---
 
-
-
-```bash
-nvidia-smi
-```
-
----
-
