@@ -240,27 +240,7 @@ cat nohup.out
 
 ---
 
-### Monitor Running Processes
 
-```bash
-top
-```
-
----
-
-# Tips
-
-⚠ **PyTorch GPU Indexing Note**
-
-Sometimes GPU indexing inside PyTorch differs from system indexing.
-
-Example:
-
-| System GPU | PyTorch GPU |
-|-----------|-------------|
-| GPU 3 | GPU 1 |
-
-Always verify GPU mapping using:
 
 ```bash
 nvidia-smi
