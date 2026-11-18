@@ -1037,7 +1037,7 @@ parser.add_argument("--epochs", type=int, default=50)
 args = parser.parse_args()
 ```
 
-# Check_GPU.py script
+# Check_GPU.py full script
 ```python
 import torch
 
