@@ -1037,6 +1037,27 @@ parser.add_argument("--epochs", type=int, default=50)
 args = parser.parse_args()
 ```
 
+# Check_GPU.py script
+```python
+import torch
+
+if torch.cuda.is_available():
+    print("GPU is available!")
+    print(f"Number of GPUs: {torch.cuda.device_count()}")
+    print(f"Current GPU name: {torch.cuda.get_device_name(0)}")
+    print(f"CUDA version: {torch.version.cuda}")
+    print(f"PyTorch CUDA backend version: {torch.backends.cudnn.version()}")
+else:
+    print("No GPU found. PyTorch will run on CPU.")
+
+# Example of creating a tensor on the appropriate device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"\nUsing device: {device}")
+x = torch.randn(2, 3).to(device)
+print(f"Tensor on device: {x.device}")
+```
+
+
 ---
 
 
